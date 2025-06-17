@@ -3,8 +3,8 @@ const yesBtn = document.getElementById("yesBtn")
 
 noBtn.addEventListener("mouseover", () => {
 
-    const x=Math.random() * (window.innerWidth-200);
-    const y=Math.random() * (window.innerHeight-200);
+    const x=Math.random() * (window.innerWidth-250);
+    const y=Math.random() * (window.innerHeight-250);
     noBtn.style.left=`${x}px`;
     noBtn.style.top=`${y}px`;
     

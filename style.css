@@ -47,7 +47,7 @@ button{
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(225, 181, 213);
-    background-image: url(/RABBIT-MAIN/rabbit.jpg);
+    background-image: url(/RABBIT-MAIN/HD-wallpaper-bunnies-rabbit-easter-animal-sweet-cute-bunny-rodent-white-pink-fur.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -72,7 +72,10 @@ body {
     border-radius: 100px;
     padding: 1rem 2rem;
     margin: 1rem;
-    max-width: 90%;
+    max-width: 47%;
+    font-size: 42px;
+    left: 24%;
+    position: relative;
 }
 
 h1 {
@@ -124,7 +127,9 @@ button:hover {
     border-radius: 100px;
     padding: 1rem 2rem;
     margin: 1rem;
-    max-width: 90%;
+    max-width: 20%;
+    left: 38%;
+    position: relative;
 }
 
 /* Responsive adjustments */
@@ -147,6 +152,20 @@ button:hover {
     
 #yesBtn {
     
-    margin-left: -11rem;
+    margin-left: -10rem;
+}
+.question {
+    
+    font-size: 23px;
+    left: 7%;
+    max-width: 62%;
+    
+}
+.message {
+    
+    left: 17%;
+    font-size: 10px;
+    max-width: 42%;
+   
 }
 }
