@@ -68,7 +68,7 @@ body {
 }
 
 .question {
-    background: rgb(251, 240, 248);
+    background: rgb(251 240 248 / 40%);
     border-radius: 100px;
     padding: 1rem 2rem;
     margin: 1rem;
