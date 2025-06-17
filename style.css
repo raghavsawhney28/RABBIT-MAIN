@@ -1,0 +1,152 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(225,181,213);
+    text-align: center;
+    margin-top: 300px;
+  
+    background-image: url(/rabbit.jpg)
+}
+h1 {
+    color: rgb(39, 123, 41);
+    font-size: 87px;
+}
+button{
+    color: white;
+    border-radius: 800px ;
+    margin: 73px;
+    padding: 10px 30px;
+    font-size: 21px;
+    position: relative;
+}
+#yesBtn{
+    background-color: rgb(197, 209, 191);
+    
+}
+.question{
+    background: rgb(251, 240, 248);
+    border-radius: 100px;
+    margin: 10px;
+    padding:-1rem -30rem;
+}
+.message{
+    background: rgb(235, 203, 203);
+    padding: -1rem -30rem;
+    margin: 10px;
+    border-radius: 100px;
+
+}
+#noBtn{
+    background-color: rgb(81, 255, 0);
+    position: absolute;
+    left: 720px;
+    top: 600px;
+} */
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(225, 181, 213);
+    background-image: url(/RABBIT-MAIN/rabbit.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 13rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.question {
+    background: rgb(251, 240, 248);
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    max-width: 90%;
+}
+
+h1 {
+    color: rgb(39, 123, 41);
+    font-size: 87px;
+    margin: 0.5rem 0;
+    word-wrap: break-word;
+}
+
+.buttons {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+button {
+    color: white;
+    border-radius: 800px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#yesBtn {
+    background-color: rgb(197, 209, 191);
+    margin-left: -15rem;
+}
+
+#noBtn {
+    background-color: rgb(81, 255, 0);
+    position: absolute;
+    margin-left: 4rem;
+    /* left: 720px; */
+    /* top: 600px; */
+    /* left: 720px; */
+    /* top: 600px; */
+    
+}
+
+.message {
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    max-width: 90%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 12vw;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px 30px;
+        /* margin: 0.5rem; */
+        margin-left: 10rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+#yesBtn {
+    
+    margin-left: -11rem;
+}
+}
